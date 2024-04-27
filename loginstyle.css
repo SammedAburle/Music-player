@@ -1,0 +1,44 @@
+.container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .form-container {
+    display: inline-block;
+    border: 2px solid #4CAF50; /* Green border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 30px;
+    margin: 20px;
+    background-color: #f2f2f2; /* Light gray background */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Shadow effect */
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners for input fields and button */
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text color */
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green background on hover */
+  }
+  
+  h1 {
+    color: #4CAF50; /* Green text color for heading */
+  }
+  
+  h2 {
+    color: #333; /* Dark gray text color for subheadings */
+  }
+  
